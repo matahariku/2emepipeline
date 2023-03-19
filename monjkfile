@@ -6,13 +6,11 @@ pipeline {
                 echo "etape de construction" 
             }
         }
-     stages {
         stage('verification') {
             steps {
                 echo "etape de verification" 
             }
         }
-     stages {
         stage('deploiement') {
             steps {
                 echo "etape de deploiement" 
